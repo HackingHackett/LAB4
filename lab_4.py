@@ -1,7 +1,5 @@
 
 
-English
-
 """
 This program allows a user three tries to guess the correct answer to the question
 question = "what is capital of california". The answer is "Sacramento".
@@ -14,41 +12,3 @@ break statement.
 If the user could not guess the correct answer withing the max_tries then print
 "you hae used up your allotment of guesses" then print "The correct answer is 'California'".
 """
-pseudo
-"""
-main
-    question = " What is the capital of california"
-    answer = "California"
-    ask(question, answer)
-
-    ask
-    tries= 0
-    loop three times
-    increment tries
-    ask user input ()
-    check to see if user input is equal to asnswer
-    if so, print "Correct" the exit loop
-
-if not correct 
-    print to the user "you have used up your allotment of guesses"
-    print the correcnt answer "the correct answer is california"
-    main
-"""
-
-def main():
-    question = "What is the captial of California"
-    answer = "California"
-    ask(question, answer)
-
-def ask(question,answer,max_tries=3):
-    tries = 0
-    while tries < max_tries:
-     tries += 1
-     ans = input(question)
-     if ans == answer:
-         print("Correct!")
-         break
-    if ans !=answer:
-            print("You have user up your allotment of guesess.")
-     
-main ()
